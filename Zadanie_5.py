@@ -1,7 +1,3 @@
-Написать функцию, которая на вход принимает int и возвращает true или false
-в зависимости является ли это число палиндром. Число является
-палиндромом, если оно читается справа налево и слева направо одинаково
-
 def IsPalindrome(value):
   value_copy=value
   result = 0
@@ -13,6 +9,6 @@ def IsPalindrome(value):
     return True
   else:
     return False
-value = int(input("Введите число: "))
+value = int(input("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ: "))
 check = IsPalindrome(value)
 print(check)

@@ -1,6 +1,3 @@
-Написать функцию, которая будет расчитывать квадратный корень n-ой
-степени методом Ньютона
-
 def Newton(num, rootDegree):
     eps = 0.00001
     root = num / rootDegree
@@ -13,7 +10,7 @@ def Newton(num, rootDegree):
             i = i + 1
         root = 0.5 * ( rn + root)
     return root
-num = float(input("Число, корень которого считаем: "))
-rootDegree = int(input("Корень степени n: "))
+num = float(input("Р§РёСЃР»Рѕ, РєРѕСЂРµРЅСЊ РєРѕС‚РѕСЂРѕРіРѕ СЃС‡РёС‚Р°РµРј: "))
+rootDegree = int(input("РљРѕСЂРµРЅСЊ СЃС‚РµРїРµРЅРё n: "))
 result = Newton(num, rootDegree)
 print(result)
